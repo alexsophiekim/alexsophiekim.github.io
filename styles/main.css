@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    scroll-behavior: smooth;
+    font-family: "Playfair Display", serif;
+  }
+body{
+    min-width: 100vw;
+    color: #3dbd9f;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+.container{
+    max-width: calc(100% - 40px);
+    margin: 0 auto;
+}
+nav{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin: 10px 5px;
+    font-weight: 600;
+}
+nav ul li a{
+    text-decoration-line: none;
+    color: #3dbd9f;
+    background-color: rgba(169, 217, 215, 0.08);
+    display: flex;
+    align-items: center;
+    line-height: 1.4px;
+    box-shadow: #90a1b70f 0px 0px 0px 1px, rgba(179, 206, 185, 0.03) 0px 1px 1px -0.5px, rgba(214, 218, 227, 0.04) 0px 2px 2px -1px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.03) 0px 5px 5px -2.5px, rgba(42, 51, 70, 0.03) 0px 10px 10px -5px, rgba(42, 51, 70, 0.03) 0px 24px 24px -8px;
+    border-radius: 4px;
+    padding: 0  10px 0px 5px;
+}
+nav ul li a i {
+   padding: 10px 4px;
+}
+nav img{
+    margin: 10px;
+}
+main{
+    max-width: calc(100% - 40px);
+    padding-top: 5em;
+    margin: 0 auto;
+}
+
+h1{
+    color: #59ffd8;
+    font-size: 7em;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.4);
+}
+h2{
+    color: #59ffd8;
+    font-size: 2em;
+    font-weight: 100;
+}
+.articleList{
+    padding:1em;
+    display: flex;
+    margin-top: 2em;
+    border: 1px solid rgba(169, 217, 215, 0.08);
+    border-radius: 4px;
+}
+.card{
+    align-content: center;
+    text-align: center;
+    height: 100px;
+    width: 200px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+.articleLink{
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:1.2em;
+    border-bottom: 2px solid black;
+}
+.articleContainer{
+    max-width: 800px;
+    margin-top: 4em !important;
+    margin: auto;
+}
+
+h3{
+    font-size: 1.4em;
+}
+/* CSS code for mobile screens*/
+@media only screen and (max-width: 480px) {
+    body{
+        max-width: 100vh;;
+    }
+    .nav-lable{
+        display: none;
+    }
+    nav{
+        max-width: calc(100% - 5px);
+    }
+    nav ul li {
+        margin: 2px;
+        align-self: center;
+    }
+    nav ul li a{
+        padding: 2px 8px !important;
+    }
+    .web-dev{
+        font-size: 40px !important;
+    }
+}
+
+/* CSS code for tablet screens*/
+@media only screen and (max-width: 768px) and (min-width:481px) {
+    body{
+        max-width: 100vh;;
+    }
+    .nav-lable{
+        display: none;
+    }
+    nav ul li a{
+        padding: 2px 8px !important;
+    }
+    h1{
+        font-size: 4em;
+    }
+    h2{
+        font-size: 1em;
+    }
+    .wave{
+        font-size: 50px !important;
+    }
+    .web-dev{
+        font-size: 40px !important;
+    }
+}
