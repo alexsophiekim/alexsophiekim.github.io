@@ -38,7 +38,7 @@ Hi, I am Sophie Kim, a web developer and designer based in Wellington, NZ. I am 
 * UX design
 
 ### Certifications
-:medal_military: Microsoft Office Azure Fundamentals AZ-900
+:medal_military: Microsoft Office Azure Fundamentals AZ-900 <br />
 :medal_military: Google Analytics 4
 
 ### Education
