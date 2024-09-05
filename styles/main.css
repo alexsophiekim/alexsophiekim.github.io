@@ -316,9 +316,9 @@ h3{
     body{
         max-width: 100vh;;
     }
-    .nav-lable{
+    /* .nav-lable{
         display: none;
-    }
+    } */
     nav ul li a{
         padding: 2px 8px !important;
     }
