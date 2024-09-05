@@ -13,39 +13,56 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <title>Developer Sophie's Blog</title>
 </head>
 <body>
     <nav>
-      <a href="../index.html"><img src="/src/logo512.png" class="myLogo" width="42px" height="42px"/></a>
+      <a href="../index.html"><img src="../src/logo512.png" class="myLogo" width="42px" height="42px"/></a>
       <ul>
-        <li><a href=""><i class="fi fi-rr-circle-user"></i><span class="nav-lable">About</span></a></li>
-        <li><a href=""><i class="fi fi-rr-apps"></i><span class="nav-lable">Projects</span></a></li>
-        <li><a href=""><i class="fi fi-rr-comment-alt"></i><span class="nav-lable">Blog</span></a></li>
-        <li><a href=""><i class="fi fi-rr-envelope"></i><span class="nav-lable">Contact</span></a></li>
+        <!-- <li><a href=""><i class="fi fi-rr-apps"></i><span class="nav-lable">Projects</span></a></li> -->
+        <li><a href="#blog"><i class="fi fi-rr-comment-alt"></i><span class="nav-lable">Blog</span></a></li>
       </ul>
     </nav>
     <section class="articleContainer">
-            <h3>
-                <i class="fi fi-rr-paperclip-vertical" style="font-size:24px"></i> 
-                What are the differences between relative, absolute, and fixed positioning?</h3>
-            <br/>
-            <p class="tags">#html</p>&nbsp;<p class="tags">#css</p>
-            <br/>
-            <br/>
-            <blockquote class="text"> The position property specifies the type of positioning method used for an element.
-            <br/> -Relative - the element is positioned relative to its normal position. <br/>
-            -Absolute - the element is positioned absolutely to its first positioned parent. <br/>
-            -Fixed - the element is positioned related to the browser window. <br/>
-            -Sticky - The element is positioned based on the user's scroll position. <br/>
-            -Static - Static is default value of position in css.
-            </blockquote>
-            <br/>
-            <div class="imagebox">
-                <img src="/src/position.png" alt="positioning-css">
-            </div>  
+        <h3 style="color:white;">
+            <i class="fi fi-rr-paperclip-vertical" style="font-size:24px"></i> 
+            <u>What are the differences between relative, absolute, and fixed positioning?</h3>
+            </u><br/>
+        <p class="tags">#html</p>&nbsp;<p class="tags">#css</p>
+        <br/>
+        <br/>
+        <blockquote class="text"> The position property specifies the type of positioning method used for an element.
+        <br/> -Relative - the element is positioned relative to its normal position. <br/>
+        -Absolute - the element is positioned absolutely to its first positioned parent. <br/>
+        -Fixed - the element is positioned related to the browser window. <br/>
+        -Sticky - The element is positioned based on the user's scroll position. <br/>
+        -Static - Static is default value of position in css.
+        </blockquote>
+        <br/>
+        <div class="relative" style="border:2px solid teal;padding:1em"> <h2 style="text-align:center;font-weight:bold;">Playground<h2/><h5 style="text-align: center;font-weight:100;">This box is relative.</h5>
+            <div class="relative positionBox" style="background-color:pink"><span class="positionBoxText">relative</span>
+                <code>{position:relative}</code>
+            </div>
+            <div class="absolute positionBox" style="background-color: lightgreen;"><span class="positionBoxText">Absolute</span><br/>
+                <code>{position:absolute;<br/>top:0;right:0;}</code>
+            </div>
+            <div class="fixed positionBox" style="background-color: tan;"><span class="positionBoxText">Fixed</span>
+                <code>{position:fixed;<br/>bottom:100px;
+                    <br/>right:100px;}</code>
+            </div>
+        </div>
+        <br/>
+        <p style="font-weight: 100;line-height:1.4;">This <var>playground</var> is <u style="color:pink;">relative</u> postion. And I tested <span style="color:pink;font-weight:bold;">pink box</span> set relative position and it looks like positioned relative to itself.<br/> 
+            I set <u style="color:lightgreen">absolute</u> position <span style="color:lightgreen;font-weight:bold;">green box</span> set top:0 and right:0 This element is relative to its parent.</p>
+            But the <u style="color:tan">fixed</u> position is very interesting. The position of this <span style="color:tan;font-weight:bold">brown box</span> starts from the top left corner of the browser, which means it is fixed to the viewport. It will remain in one spot in the browser and is not affected by scrolling up and down.<br/>
+        <br/>
+        <div class="imagebox">
+            <img src="/src/position.png" alt="positioning-css">
+            <p style="text-align: center;font-size:0.8em;font-weight:100;color:cornflowerblue">above image is more about the CSS position property</p>
+        </div>  
     </section>
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="footer-content">
             <div class="footer-section">
                 <div class="contact-info">
