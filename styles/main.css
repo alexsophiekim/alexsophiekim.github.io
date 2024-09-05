@@ -60,11 +60,16 @@ nav ul li a{
     text-decoration-line: none;
     color: #59ffd8;
     background-color: rgba(169, 217, 215, 0.08);
+    border: 1px solid rgba(169, 217, 215, 0.08);
     display: flex;
     align-items: center;
     line-height: 1.4px;
     border-radius: 4px;
-    padding: 0  10px 0px 5px;
+    padding: 2px 15px 2px 10px
+}
+nav ul li a:hover{
+    border: 1px solid rgba(169, 217, 215, 0.4);
+    box-shadow: 0 0 5px rgba(150, 200, 198, 0.2);
 }
 nav ul li a i {
    padding: 10px 4px;
