@@ -271,7 +271,7 @@ h3{
         display: none;
     }
     nav{
-        max-width: calc(100% - 5px);
+        max-width: calc(100% - 10px);
     }
     nav ul li {
         margin: 2px;
@@ -285,6 +285,9 @@ h3{
     }
     section{
         max-width: calc(100% - 50px);
+    }
+    h1{
+        font-size: 2.2em;
     }
     h2{
         font-size: 1em;
