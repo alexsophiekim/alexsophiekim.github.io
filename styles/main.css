@@ -17,6 +17,10 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     }
+p{
+    line-height: 1.4;
+    font-weight: 100;
+}
 .container{
     max-width: calc(100% - 300px);
     margin: 0 auto;
@@ -107,6 +111,7 @@ h2{
 }
 h3{
     font-size: 1.6em;
+    color: white;
 }
 .text{
     line-height: 1.6;
@@ -142,7 +147,7 @@ h3{
 .card{
     padding: 20px;
     border: 1px solid transparent;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     background-color: rgba(169, 217, 215, 0.08);
     border: 1px solid rgba(169, 217, 215, 0.1);
     box-shadow: 0 0 3px rgba(150, 200, 198, 0.2);
@@ -152,14 +157,14 @@ h3{
     border: 1px solid rgba(169, 217, 215, 0.4);
     box-shadow: 0 0 5px rgba(150, 200, 198, 0.2);
 }
-.articleLink{
-    text-decoration: none;
-}
-.articleLink p{
+.card p{
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size:1.2em;
     line-height: 1.4;
+}
+.articleLink{
+    text-decoration: none;
 }
 /* Here is the html-css.html stylings */
 .articleContainer{
