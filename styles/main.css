@@ -179,12 +179,16 @@ h3{
     color: white;
     padding: 0px 6px;
     height: max-content;
-    background: rgba(118, 255, 225, 0.247);
+    background: rgba(118, 255, 225, 0.2);
     border-radius: 4px;
     display: inline-flex;
     -webkit-box-align: center;
     align-items: center;
     gap: 5px;
+    font-size: 0.8em !important;
+    font-weight: 400 !important;
+    font-family:'Ubuntu' !important;
+    margin-bottom: 0.5em;
 }
 .positionBox{
     border:1px solid white;
