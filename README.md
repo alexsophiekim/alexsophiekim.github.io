@@ -6,7 +6,7 @@
   - 0210626074
   - alexsophiekim@gmail.com
   - Based in Wellington, New Zealand
-  - www.linkedin.com/in/sophie-kim-902622177
+  - www.linkedin.com/in/sophienz
 
 ### About
 ---
