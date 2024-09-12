@@ -157,11 +157,15 @@ h3{
     border: 1px solid rgba(169, 217, 215, 0.4);
     box-shadow: 0 0 5px rgba(150, 200, 198, 0.2);
 }
-.card p{
+.title{
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size:1.2em;
     line-height: 1.4;
+}
+.title:hover{
+    color:#3dbd9f;
+    text-shadow: 2px 2px 4px rgba(89,255,216,0.3);
 }
 .articleLink{
     text-decoration: none;
