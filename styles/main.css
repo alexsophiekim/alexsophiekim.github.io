@@ -126,7 +126,7 @@ h3{
 }
 .blog{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.5fr 1.5fr;
     gap: 2em;
     margin: 0 auto;
     padding: 2em;
