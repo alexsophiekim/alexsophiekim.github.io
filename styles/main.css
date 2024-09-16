@@ -12,7 +12,7 @@ body{
     height: 100%;
     color: #d9d9d9;
     background: #0c0a27;  
-    background-image:url('../src/bg.jpg') no-repeat;
+    background-image:url('../src/bg.jpg');
     background-position: 33% 50%;
     background-size: cover;
     background-repeat: no-repeat;
