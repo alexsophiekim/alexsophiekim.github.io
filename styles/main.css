@@ -22,6 +22,22 @@ p{
     line-height: 1.4;
     font-weight: 100;
 }
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #08735a;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #084546;
+  }
 .container{
     max-width: calc(100% - 300px);
     margin: 0 auto;
