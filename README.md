@@ -3,7 +3,6 @@
 
 ### Contact
 ---
-  - 0210626074
   - alexsophiekim@gmail.com
   - Based in Wellington, New Zealand
   - www.linkedin.com/in/sophienz
